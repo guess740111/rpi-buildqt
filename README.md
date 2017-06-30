@@ -66,7 +66,7 @@ Based on https://wiki.qt.io/RaspberryPi2EGLFS, https://thebugfreeblog.blogspot.c
 4. run `1_download.sh`, this will download all required repositories
 4.1 run `1.x_download_modules.sh`, this will download _all_ qt modules given in env.sh
 5. run `2_sync.sh`, this will connect to RPi and creates a sysroot for crosscompilation
-6. run `3.0_build_qtbase.sh`, this will build and install `qtbase`
+6. run `3_build_qtbase.sh`, this will build and install `qtbase`
 7. run `3.x_build_modules.sh`, this will build and install _all_ qt modules given in env.sh. Feel free to add more from https://github.com/qt (You can also do `3.x_build_modules.sh qtfoo` for only qtfoo)
 8. run `4_build_piomxtextures.sh`, this will build and install `piomxtextures`
 9. run `5_sync_to_device.sh`, this will copy qt5 to the device
